@@ -125,7 +125,7 @@ class InstanceBase {
 }
 
 const MAX_SLIDE_SLOTS = 84
-const MAX_EXP_SLOTS = 12
+const MAX_EXP_SLOTS = 24
 
 function unwrapOption(val, fallback) {
 	if (val !== null && typeof val === 'object' && 'value' in val) {
