@@ -1,0 +1,36 @@
+{
+  "$schema": "../node_modules/@companion-module/base/assets/manifest.schema.json",
+  "id": "three10-xcreator",
+  "name": "three10: X-Creator",
+  "type": "connection",
+  "shortname": "xcreator",
+  "description": "three10 X-Creator REST API module with live auto-discovery and feedback",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": "git+https://github.com/bitfocus/companion-module-three10-xcreator.git",
+  "bugs": "https://github.com/bitfocus/companion-module-three10-xcreator/issues",
+  "maintainers": [
+    {
+      "name": "Andre",
+      "email": "info@three10.de"
+    }
+  ],
+  "legacyIds": [],
+  "runtime": {
+    "type": "node22",
+    "api": "nodejs-ipc",
+    "apiVersion": "2.0.4",
+    "entrypoint": "../main.js"
+  },
+  "manufacturer": "three10",
+  "products": [
+    "X-Creator"
+  ],
+  "keywords": [
+    "Presentation",
+    "Media Server",
+    "three10",
+    "X-Creator"
+  ],
+  "isPrerelease": false
+}

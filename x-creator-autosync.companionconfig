@@ -1,0 +1,1779 @@
+{
+  "version": 11,
+  "type": "full",
+  "companionBuild": "5.1.2+10019-stable-98d5d4e1a1",
+  "pages": {
+    "1": {
+      "id": "page_autosync_1",
+      "name": "X-Creator Auto-Sync (8x4)",
+      "controls": {
+        "0": {
+          "0": {
+            "type": "button",
+            "style": {
+              "text": "$(xcreator:slide_1_name)",
+              "textExpression": false,
+              "size": "auto",
+              "png64": null,
+              "alignment": "center:center",
+              "pngalignment": "center:center",
+              "color": 16777215,
+              "bgcolor": 1319740,
+              "show_topbar": "default"
+            },
+            "options": {
+              "stepProgression": "auto",
+              "stepExpression": ""
+            },
+            "feedbacks": [
+              {
+                "id": "fb_slide_1",
+                "type": "feedback",
+                "feedbackId": "slide_slot_active",
+                "instance_id": "xcreator01",
+                "options": {
+                  "slot": 1
+                },
+                "style": {
+                  "color": 16777215,
+                  "bgcolor": 46140
+                },
+                "isInverted": false,
+                "headline": ""
+              }
+            ],
+            "steps": {
+              "0": {
+                "action_sets": {
+                  "down": [
+                    {
+                      "id": "act_slide_1",
+                      "type": "action",
+                      "action": "load_slide_slot",
+                      "instance": "xcreator01",
+                      "options": {
+                        "slot": 1
+                      },
+                      "headline": ""
+                    }
+                  ],
+                  "up": []
+                },
+                "options": {
+                  "runWhileHeld": []
+                }
+              }
+            }
+          },
+          "1": {
+            "type": "button",
+            "style": {
+              "text": "$(xcreator:slide_2_name)",
+              "textExpression": false,
+              "size": "auto",
+              "png64": null,
+              "alignment": "center:center",
+              "pngalignment": "center:center",
+              "color": 16777215,
+              "bgcolor": 1319740,
+              "show_topbar": "default"
+            },
+            "options": {
+              "stepProgression": "auto",
+              "stepExpression": ""
+            },
+            "feedbacks": [
+              {
+                "id": "fb_slide_2",
+                "type": "feedback",
+                "feedbackId": "slide_slot_active",
+                "instance_id": "xcreator01",
+                "options": {
+                  "slot": 2
+                },
+                "style": {
+                  "color": 16777215,
+                  "bgcolor": 46140
+                },
+                "isInverted": false,
+                "headline": ""
+              }
+            ],
+            "steps": {
+              "0": {
+                "action_sets": {
+                  "down": [
+                    {
+                      "id": "act_slide_2",
+                      "type": "action",
+                      "action": "load_slide_slot",
+                      "instance": "xcreator01",
+                      "options": {
+                        "slot": 2
+                      },
+                      "headline": ""
+                    }
+                  ],
+                  "up": []
+                },
+                "options": {
+                  "runWhileHeld": []
+                }
+              }
+            }
+          },
+          "2": {
+            "type": "button",
+            "style": {
+              "text": "$(xcreator:slide_3_name)",
+              "textExpression": false,
+              "size": "auto",
+              "png64": null,
+              "alignment": "center:center",
+              "pngalignment": "center:center",
+              "color": 16777215,
+              "bgcolor": 1319740,
+              "show_topbar": "default"
+            },
+            "options": {
+              "stepProgression": "auto",
+              "stepExpression": ""
+            },
+            "feedbacks": [
+              {
+                "id": "fb_slide_3",
+                "type": "feedback",
+                "feedbackId": "slide_slot_active",
+                "instance_id": "xcreator01",
+                "options": {
+                  "slot": 3
+                },
+                "style": {
+                  "color": 16777215,
+                  "bgcolor": 46140
+                },
+                "isInverted": false,
+                "headline": ""
+              }
+            ],
+            "steps": {
+              "0": {
+                "action_sets": {
+                  "down": [
+                    {
+                      "id": "act_slide_3",
+                      "type": "action",
+                      "action": "load_slide_slot",
+                      "instance": "xcreator01",
+                      "options": {
+                        "slot": 3
+                      },
+                      "headline": ""
+                    }
+                  ],
+                  "up": []
+                },
+                "options": {
+                  "runWhileHeld": []
+                }
+              }
+            }
+          },
+          "3": {
+            "type": "button",
+            "style": {
+              "text": "$(xcreator:slide_4_name)",
+              "textExpression": false,
+              "size": "auto",
+              "png64": null,
+              "alignment": "center:center",
+              "pngalignment": "center:center",
+              "color": 16777215,
+              "bgcolor": 1319740,
+              "show_topbar": "default"
+            },
+            "options": {
+              "stepProgression": "auto",
+              "stepExpression": ""
+            },
+            "feedbacks": [
+              {
+                "id": "fb_slide_4",
+                "type": "feedback",
+                "feedbackId": "slide_slot_active",
+                "instance_id": "xcreator01",
+                "options": {
+                  "slot": 4
+                },
+                "style": {
+                  "color": 16777215,
+                  "bgcolor": 46140
+                },
+                "isInverted": false,
+                "headline": ""
+              }
+            ],
+            "steps": {
+              "0": {
+                "action_sets": {
+                  "down": [
+                    {
+                      "id": "act_slide_4",
+                      "type": "action",
+                      "action": "load_slide_slot",
+                      "instance": "xcreator01",
+                      "options": {
+                        "slot": 4
+                      },
+                      "headline": ""
+                    }
+                  ],
+                  "up": []
+                },
+                "options": {
+                  "runWhileHeld": []
+                }
+              }
+            }
+          },
+          "4": {
+            "type": "button",
+            "style": {
+              "text": "$(xcreator:slide_5_name)",
+              "textExpression": false,
+              "size": "auto",
+              "png64": null,
+              "alignment": "center:center",
+              "pngalignment": "center:center",
+              "color": 16777215,
+              "bgcolor": 1319740,
+              "show_topbar": "default"
+            },
+            "options": {
+              "stepProgression": "auto",
+              "stepExpression": ""
+            },
+            "feedbacks": [
+              {
+                "id": "fb_slide_5",
+                "type": "feedback",
+                "feedbackId": "slide_slot_active",
+                "instance_id": "xcreator01",
+                "options": {
+                  "slot": 5
+                },
+                "style": {
+                  "color": 16777215,
+                  "bgcolor": 46140
+                },
+                "isInverted": false,
+                "headline": ""
+              }
+            ],
+            "steps": {
+              "0": {
+                "action_sets": {
+                  "down": [
+                    {
+                      "id": "act_slide_5",
+                      "type": "action",
+                      "action": "load_slide_slot",
+                      "instance": "xcreator01",
+                      "options": {
+                        "slot": 5
+                      },
+                      "headline": ""
+                    }
+                  ],
+                  "up": []
+                },
+                "options": {
+                  "runWhileHeld": []
+                }
+              }
+            }
+          },
+          "5": {
+            "type": "button",
+            "style": {
+              "text": "$(xcreator:slide_6_name)",
+              "textExpression": false,
+              "size": "auto",
+              "png64": null,
+              "alignment": "center:center",
+              "pngalignment": "center:center",
+              "color": 16777215,
+              "bgcolor": 1319740,
+              "show_topbar": "default"
+            },
+            "options": {
+              "stepProgression": "auto",
+              "stepExpression": ""
+            },
+            "feedbacks": [
+              {
+                "id": "fb_slide_6",
+                "type": "feedback",
+                "feedbackId": "slide_slot_active",
+                "instance_id": "xcreator01",
+                "options": {
+                  "slot": 6
+                },
+                "style": {
+                  "color": 16777215,
+                  "bgcolor": 46140
+                },
+                "isInverted": false,
+                "headline": ""
+              }
+            ],
+            "steps": {
+              "0": {
+                "action_sets": {
+                  "down": [
+                    {
+                      "id": "act_slide_6",
+                      "type": "action",
+                      "action": "load_slide_slot",
+                      "instance": "xcreator01",
+                      "options": {
+                        "slot": 6
+                      },
+                      "headline": ""
+                    }
+                  ],
+                  "up": []
+                },
+                "options": {
+                  "runWhileHeld": []
+                }
+              }
+            }
+          },
+          "6": {
+            "type": "button",
+            "style": {
+              "text": "$(xcreator:slide_7_name)",
+              "textExpression": false,
+              "size": "auto",
+              "png64": null,
+              "alignment": "center:center",
+              "pngalignment": "center:center",
+              "color": 16777215,
+              "bgcolor": 1319740,
+              "show_topbar": "default"
+            },
+            "options": {
+              "stepProgression": "auto",
+              "stepExpression": ""
+            },
+            "feedbacks": [
+              {
+                "id": "fb_slide_7",
+                "type": "feedback",
+                "feedbackId": "slide_slot_active",
+                "instance_id": "xcreator01",
+                "options": {
+                  "slot": 7
+                },
+                "style": {
+                  "color": 16777215,
+                  "bgcolor": 46140
+                },
+                "isInverted": false,
+                "headline": ""
+              }
+            ],
+            "steps": {
+              "0": {
+                "action_sets": {
+                  "down": [
+                    {
+                      "id": "act_slide_7",
+                      "type": "action",
+                      "action": "load_slide_slot",
+                      "instance": "xcreator01",
+                      "options": {
+                        "slot": 7
+                      },
+                      "headline": ""
+                    }
+                  ],
+                  "up": []
+                },
+                "options": {
+                  "runWhileHeld": []
+                }
+              }
+            }
+          },
+          "7": {
+            "type": "button",
+            "style": {
+              "text": "$(xcreator:slide_8_name)",
+              "textExpression": false,
+              "size": "auto",
+              "png64": null,
+              "alignment": "center:center",
+              "pngalignment": "center:center",
+              "color": 16777215,
+              "bgcolor": 1319740,
+              "show_topbar": "default"
+            },
+            "options": {
+              "stepProgression": "auto",
+              "stepExpression": ""
+            },
+            "feedbacks": [
+              {
+                "id": "fb_slide_8",
+                "type": "feedback",
+                "feedbackId": "slide_slot_active",
+                "instance_id": "xcreator01",
+                "options": {
+                  "slot": 8
+                },
+                "style": {
+                  "color": 16777215,
+                  "bgcolor": 46140
+                },
+                "isInverted": false,
+                "headline": ""
+              }
+            ],
+            "steps": {
+              "0": {
+                "action_sets": {
+                  "down": [
+                    {
+                      "id": "act_slide_8",
+                      "type": "action",
+                      "action": "load_slide_slot",
+                      "instance": "xcreator01",
+                      "options": {
+                        "slot": 8
+                      },
+                      "headline": ""
+                    }
+                  ],
+                  "up": []
+                },
+                "options": {
+                  "runWhileHeld": []
+                }
+              }
+            }
+          }
+        },
+        "1": {
+          "0": {
+            "type": "button",
+            "style": {
+              "text": "$(xcreator:slide_9_name)",
+              "textExpression": false,
+              "size": "auto",
+              "png64": null,
+              "alignment": "center:center",
+              "pngalignment": "center:center",
+              "color": 16777215,
+              "bgcolor": 1319740,
+              "show_topbar": "default"
+            },
+            "options": {
+              "stepProgression": "auto",
+              "stepExpression": ""
+            },
+            "feedbacks": [
+              {
+                "id": "fb_slide_9",
+                "type": "feedback",
+                "feedbackId": "slide_slot_active",
+                "instance_id": "xcreator01",
+                "options": {
+                  "slot": 9
+                },
+                "style": {
+                  "color": 16777215,
+                  "bgcolor": 46140
+                },
+                "isInverted": false,
+                "headline": ""
+              }
+            ],
+            "steps": {
+              "0": {
+                "action_sets": {
+                  "down": [
+                    {
+                      "id": "act_slide_9",
+                      "type": "action",
+                      "action": "load_slide_slot",
+                      "instance": "xcreator01",
+                      "options": {
+                        "slot": 9
+                      },
+                      "headline": ""
+                    }
+                  ],
+                  "up": []
+                },
+                "options": {
+                  "runWhileHeld": []
+                }
+              }
+            }
+          },
+          "1": {
+            "type": "button",
+            "style": {
+              "text": "$(xcreator:slide_10_name)",
+              "textExpression": false,
+              "size": "auto",
+              "png64": null,
+              "alignment": "center:center",
+              "pngalignment": "center:center",
+              "color": 16777215,
+              "bgcolor": 1319740,
+              "show_topbar": "default"
+            },
+            "options": {
+              "stepProgression": "auto",
+              "stepExpression": ""
+            },
+            "feedbacks": [
+              {
+                "id": "fb_slide_10",
+                "type": "feedback",
+                "feedbackId": "slide_slot_active",
+                "instance_id": "xcreator01",
+                "options": {
+                  "slot": 10
+                },
+                "style": {
+                  "color": 16777215,
+                  "bgcolor": 46140
+                },
+                "isInverted": false,
+                "headline": ""
+              }
+            ],
+            "steps": {
+              "0": {
+                "action_sets": {
+                  "down": [
+                    {
+                      "id": "act_slide_10",
+                      "type": "action",
+                      "action": "load_slide_slot",
+                      "instance": "xcreator01",
+                      "options": {
+                        "slot": 10
+                      },
+                      "headline": ""
+                    }
+                  ],
+                  "up": []
+                },
+                "options": {
+                  "runWhileHeld": []
+                }
+              }
+            }
+          },
+          "2": {
+            "type": "button",
+            "style": {
+              "text": "$(xcreator:slide_11_name)",
+              "textExpression": false,
+              "size": "auto",
+              "png64": null,
+              "alignment": "center:center",
+              "pngalignment": "center:center",
+              "color": 16777215,
+              "bgcolor": 1319740,
+              "show_topbar": "default"
+            },
+            "options": {
+              "stepProgression": "auto",
+              "stepExpression": ""
+            },
+            "feedbacks": [
+              {
+                "id": "fb_slide_11",
+                "type": "feedback",
+                "feedbackId": "slide_slot_active",
+                "instance_id": "xcreator01",
+                "options": {
+                  "slot": 11
+                },
+                "style": {
+                  "color": 16777215,
+                  "bgcolor": 46140
+                },
+                "isInverted": false,
+                "headline": ""
+              }
+            ],
+            "steps": {
+              "0": {
+                "action_sets": {
+                  "down": [
+                    {
+                      "id": "act_slide_11",
+                      "type": "action",
+                      "action": "load_slide_slot",
+                      "instance": "xcreator01",
+                      "options": {
+                        "slot": 11
+                      },
+                      "headline": ""
+                    }
+                  ],
+                  "up": []
+                },
+                "options": {
+                  "runWhileHeld": []
+                }
+              }
+            }
+          },
+          "3": {
+            "type": "button",
+            "style": {
+              "text": "$(xcreator:slide_12_name)",
+              "textExpression": false,
+              "size": "auto",
+              "png64": null,
+              "alignment": "center:center",
+              "pngalignment": "center:center",
+              "color": 16777215,
+              "bgcolor": 1319740,
+              "show_topbar": "default"
+            },
+            "options": {
+              "stepProgression": "auto",
+              "stepExpression": ""
+            },
+            "feedbacks": [
+              {
+                "id": "fb_slide_12",
+                "type": "feedback",
+                "feedbackId": "slide_slot_active",
+                "instance_id": "xcreator01",
+                "options": {
+                  "slot": 12
+                },
+                "style": {
+                  "color": 16777215,
+                  "bgcolor": 46140
+                },
+                "isInverted": false,
+                "headline": ""
+              }
+            ],
+            "steps": {
+              "0": {
+                "action_sets": {
+                  "down": [
+                    {
+                      "id": "act_slide_12",
+                      "type": "action",
+                      "action": "load_slide_slot",
+                      "instance": "xcreator01",
+                      "options": {
+                        "slot": 12
+                      },
+                      "headline": ""
+                    }
+                  ],
+                  "up": []
+                },
+                "options": {
+                  "runWhileHeld": []
+                }
+              }
+            }
+          },
+          "4": {
+            "type": "button",
+            "style": {
+              "text": "$(xcreator:slide_13_name)",
+              "textExpression": false,
+              "size": "auto",
+              "png64": null,
+              "alignment": "center:center",
+              "pngalignment": "center:center",
+              "color": 16777215,
+              "bgcolor": 1319740,
+              "show_topbar": "default"
+            },
+            "options": {
+              "stepProgression": "auto",
+              "stepExpression": ""
+            },
+            "feedbacks": [
+              {
+                "id": "fb_slide_13",
+                "type": "feedback",
+                "feedbackId": "slide_slot_active",
+                "instance_id": "xcreator01",
+                "options": {
+                  "slot": 13
+                },
+                "style": {
+                  "color": 16777215,
+                  "bgcolor": 46140
+                },
+                "isInverted": false,
+                "headline": ""
+              }
+            ],
+            "steps": {
+              "0": {
+                "action_sets": {
+                  "down": [
+                    {
+                      "id": "act_slide_13",
+                      "type": "action",
+                      "action": "load_slide_slot",
+                      "instance": "xcreator01",
+                      "options": {
+                        "slot": 13
+                      },
+                      "headline": ""
+                    }
+                  ],
+                  "up": []
+                },
+                "options": {
+                  "runWhileHeld": []
+                }
+              }
+            }
+          },
+          "5": {
+            "type": "button",
+            "style": {
+              "text": "$(xcreator:slide_14_name)",
+              "textExpression": false,
+              "size": "auto",
+              "png64": null,
+              "alignment": "center:center",
+              "pngalignment": "center:center",
+              "color": 16777215,
+              "bgcolor": 1319740,
+              "show_topbar": "default"
+            },
+            "options": {
+              "stepProgression": "auto",
+              "stepExpression": ""
+            },
+            "feedbacks": [
+              {
+                "id": "fb_slide_14",
+                "type": "feedback",
+                "feedbackId": "slide_slot_active",
+                "instance_id": "xcreator01",
+                "options": {
+                  "slot": 14
+                },
+                "style": {
+                  "color": 16777215,
+                  "bgcolor": 46140
+                },
+                "isInverted": false,
+                "headline": ""
+              }
+            ],
+            "steps": {
+              "0": {
+                "action_sets": {
+                  "down": [
+                    {
+                      "id": "act_slide_14",
+                      "type": "action",
+                      "action": "load_slide_slot",
+                      "instance": "xcreator01",
+                      "options": {
+                        "slot": 14
+                      },
+                      "headline": ""
+                    }
+                  ],
+                  "up": []
+                },
+                "options": {
+                  "runWhileHeld": []
+                }
+              }
+            }
+          },
+          "6": {
+            "type": "button",
+            "style": {
+              "text": "$(xcreator:slide_15_name)",
+              "textExpression": false,
+              "size": "auto",
+              "png64": null,
+              "alignment": "center:center",
+              "pngalignment": "center:center",
+              "color": 16777215,
+              "bgcolor": 1319740,
+              "show_topbar": "default"
+            },
+            "options": {
+              "stepProgression": "auto",
+              "stepExpression": ""
+            },
+            "feedbacks": [
+              {
+                "id": "fb_slide_15",
+                "type": "feedback",
+                "feedbackId": "slide_slot_active",
+                "instance_id": "xcreator01",
+                "options": {
+                  "slot": 15
+                },
+                "style": {
+                  "color": 16777215,
+                  "bgcolor": 46140
+                },
+                "isInverted": false,
+                "headline": ""
+              }
+            ],
+            "steps": {
+              "0": {
+                "action_sets": {
+                  "down": [
+                    {
+                      "id": "act_slide_15",
+                      "type": "action",
+                      "action": "load_slide_slot",
+                      "instance": "xcreator01",
+                      "options": {
+                        "slot": 15
+                      },
+                      "headline": ""
+                    }
+                  ],
+                  "up": []
+                },
+                "options": {
+                  "runWhileHeld": []
+                }
+              }
+            }
+          },
+          "7": {
+            "type": "button",
+            "style": {
+              "text": "$(xcreator:slide_16_name)",
+              "textExpression": false,
+              "size": "auto",
+              "png64": null,
+              "alignment": "center:center",
+              "pngalignment": "center:center",
+              "color": 16777215,
+              "bgcolor": 1319740,
+              "show_topbar": "default"
+            },
+            "options": {
+              "stepProgression": "auto",
+              "stepExpression": ""
+            },
+            "feedbacks": [
+              {
+                "id": "fb_slide_16",
+                "type": "feedback",
+                "feedbackId": "slide_slot_active",
+                "instance_id": "xcreator01",
+                "options": {
+                  "slot": 16
+                },
+                "style": {
+                  "color": 16777215,
+                  "bgcolor": 46140
+                },
+                "isInverted": false,
+                "headline": ""
+              }
+            ],
+            "steps": {
+              "0": {
+                "action_sets": {
+                  "down": [
+                    {
+                      "id": "act_slide_16",
+                      "type": "action",
+                      "action": "load_slide_slot",
+                      "instance": "xcreator01",
+                      "options": {
+                        "slot": 16
+                      },
+                      "headline": ""
+                    }
+                  ],
+                  "up": []
+                },
+                "options": {
+                  "runWhileHeld": []
+                }
+              }
+            }
+          }
+        },
+        "2": {
+          "0": {
+            "type": "button",
+            "style": {
+              "text": "$(xcreator:slide_17_name)",
+              "textExpression": false,
+              "size": "auto",
+              "png64": null,
+              "alignment": "center:center",
+              "pngalignment": "center:center",
+              "color": 16777215,
+              "bgcolor": 1319740,
+              "show_topbar": "default"
+            },
+            "options": {
+              "stepProgression": "auto",
+              "stepExpression": ""
+            },
+            "feedbacks": [
+              {
+                "id": "fb_slide_17",
+                "type": "feedback",
+                "feedbackId": "slide_slot_active",
+                "instance_id": "xcreator01",
+                "options": {
+                  "slot": 17
+                },
+                "style": {
+                  "color": 16777215,
+                  "bgcolor": 46140
+                },
+                "isInverted": false,
+                "headline": ""
+              }
+            ],
+            "steps": {
+              "0": {
+                "action_sets": {
+                  "down": [
+                    {
+                      "id": "act_slide_17",
+                      "type": "action",
+                      "action": "load_slide_slot",
+                      "instance": "xcreator01",
+                      "options": {
+                        "slot": 17
+                      },
+                      "headline": ""
+                    }
+                  ],
+                  "up": []
+                },
+                "options": {
+                  "runWhileHeld": []
+                }
+              }
+            }
+          },
+          "1": {
+            "type": "button",
+            "style": {
+              "text": "$(xcreator:slide_18_name)",
+              "textExpression": false,
+              "size": "auto",
+              "png64": null,
+              "alignment": "center:center",
+              "pngalignment": "center:center",
+              "color": 16777215,
+              "bgcolor": 1319740,
+              "show_topbar": "default"
+            },
+            "options": {
+              "stepProgression": "auto",
+              "stepExpression": ""
+            },
+            "feedbacks": [
+              {
+                "id": "fb_slide_18",
+                "type": "feedback",
+                "feedbackId": "slide_slot_active",
+                "instance_id": "xcreator01",
+                "options": {
+                  "slot": 18
+                },
+                "style": {
+                  "color": 16777215,
+                  "bgcolor": 46140
+                },
+                "isInverted": false,
+                "headline": ""
+              }
+            ],
+            "steps": {
+              "0": {
+                "action_sets": {
+                  "down": [
+                    {
+                      "id": "act_slide_18",
+                      "type": "action",
+                      "action": "load_slide_slot",
+                      "instance": "xcreator01",
+                      "options": {
+                        "slot": 18
+                      },
+                      "headline": ""
+                    }
+                  ],
+                  "up": []
+                },
+                "options": {
+                  "runWhileHeld": []
+                }
+              }
+            }
+          },
+          "2": {
+            "type": "button",
+            "style": {
+              "text": "$(xcreator:slide_19_name)",
+              "textExpression": false,
+              "size": "auto",
+              "png64": null,
+              "alignment": "center:center",
+              "pngalignment": "center:center",
+              "color": 16777215,
+              "bgcolor": 1319740,
+              "show_topbar": "default"
+            },
+            "options": {
+              "stepProgression": "auto",
+              "stepExpression": ""
+            },
+            "feedbacks": [
+              {
+                "id": "fb_slide_19",
+                "type": "feedback",
+                "feedbackId": "slide_slot_active",
+                "instance_id": "xcreator01",
+                "options": {
+                  "slot": 19
+                },
+                "style": {
+                  "color": 16777215,
+                  "bgcolor": 46140
+                },
+                "isInverted": false,
+                "headline": ""
+              }
+            ],
+            "steps": {
+              "0": {
+                "action_sets": {
+                  "down": [
+                    {
+                      "id": "act_slide_19",
+                      "type": "action",
+                      "action": "load_slide_slot",
+                      "instance": "xcreator01",
+                      "options": {
+                        "slot": 19
+                      },
+                      "headline": ""
+                    }
+                  ],
+                  "up": []
+                },
+                "options": {
+                  "runWhileHeld": []
+                }
+              }
+            }
+          },
+          "3": {
+            "type": "button",
+            "style": {
+              "text": "$(xcreator:slide_20_name)",
+              "textExpression": false,
+              "size": "auto",
+              "png64": null,
+              "alignment": "center:center",
+              "pngalignment": "center:center",
+              "color": 16777215,
+              "bgcolor": 1319740,
+              "show_topbar": "default"
+            },
+            "options": {
+              "stepProgression": "auto",
+              "stepExpression": ""
+            },
+            "feedbacks": [
+              {
+                "id": "fb_slide_20",
+                "type": "feedback",
+                "feedbackId": "slide_slot_active",
+                "instance_id": "xcreator01",
+                "options": {
+                  "slot": 20
+                },
+                "style": {
+                  "color": 16777215,
+                  "bgcolor": 46140
+                },
+                "isInverted": false,
+                "headline": ""
+              }
+            ],
+            "steps": {
+              "0": {
+                "action_sets": {
+                  "down": [
+                    {
+                      "id": "act_slide_20",
+                      "type": "action",
+                      "action": "load_slide_slot",
+                      "instance": "xcreator01",
+                      "options": {
+                        "slot": 20
+                      },
+                      "headline": ""
+                    }
+                  ],
+                  "up": []
+                },
+                "options": {
+                  "runWhileHeld": []
+                }
+              }
+            }
+          },
+          "4": {
+            "type": "button",
+            "style": {
+              "text": "$(xcreator:slide_21_name)",
+              "textExpression": false,
+              "size": "auto",
+              "png64": null,
+              "alignment": "center:center",
+              "pngalignment": "center:center",
+              "color": 16777215,
+              "bgcolor": 1319740,
+              "show_topbar": "default"
+            },
+            "options": {
+              "stepProgression": "auto",
+              "stepExpression": ""
+            },
+            "feedbacks": [
+              {
+                "id": "fb_slide_21",
+                "type": "feedback",
+                "feedbackId": "slide_slot_active",
+                "instance_id": "xcreator01",
+                "options": {
+                  "slot": 21
+                },
+                "style": {
+                  "color": 16777215,
+                  "bgcolor": 46140
+                },
+                "isInverted": false,
+                "headline": ""
+              }
+            ],
+            "steps": {
+              "0": {
+                "action_sets": {
+                  "down": [
+                    {
+                      "id": "act_slide_21",
+                      "type": "action",
+                      "action": "load_slide_slot",
+                      "instance": "xcreator01",
+                      "options": {
+                        "slot": 21
+                      },
+                      "headline": ""
+                    }
+                  ],
+                  "up": []
+                },
+                "options": {
+                  "runWhileHeld": []
+                }
+              }
+            }
+          },
+          "5": {
+            "type": "button",
+            "style": {
+              "text": "$(xcreator:slide_22_name)",
+              "textExpression": false,
+              "size": "auto",
+              "png64": null,
+              "alignment": "center:center",
+              "pngalignment": "center:center",
+              "color": 16777215,
+              "bgcolor": 1319740,
+              "show_topbar": "default"
+            },
+            "options": {
+              "stepProgression": "auto",
+              "stepExpression": ""
+            },
+            "feedbacks": [
+              {
+                "id": "fb_slide_22",
+                "type": "feedback",
+                "feedbackId": "slide_slot_active",
+                "instance_id": "xcreator01",
+                "options": {
+                  "slot": 22
+                },
+                "style": {
+                  "color": 16777215,
+                  "bgcolor": 46140
+                },
+                "isInverted": false,
+                "headline": ""
+              }
+            ],
+            "steps": {
+              "0": {
+                "action_sets": {
+                  "down": [
+                    {
+                      "id": "act_slide_22",
+                      "type": "action",
+                      "action": "load_slide_slot",
+                      "instance": "xcreator01",
+                      "options": {
+                        "slot": 22
+                      },
+                      "headline": ""
+                    }
+                  ],
+                  "up": []
+                },
+                "options": {
+                  "runWhileHeld": []
+                }
+              }
+            }
+          },
+          "6": {
+            "type": "button",
+            "style": {
+              "text": "$(xcreator:slide_23_name)",
+              "textExpression": false,
+              "size": "auto",
+              "png64": null,
+              "alignment": "center:center",
+              "pngalignment": "center:center",
+              "color": 16777215,
+              "bgcolor": 1319740,
+              "show_topbar": "default"
+            },
+            "options": {
+              "stepProgression": "auto",
+              "stepExpression": ""
+            },
+            "feedbacks": [
+              {
+                "id": "fb_slide_23",
+                "type": "feedback",
+                "feedbackId": "slide_slot_active",
+                "instance_id": "xcreator01",
+                "options": {
+                  "slot": 23
+                },
+                "style": {
+                  "color": 16777215,
+                  "bgcolor": 46140
+                },
+                "isInverted": false,
+                "headline": ""
+              }
+            ],
+            "steps": {
+              "0": {
+                "action_sets": {
+                  "down": [
+                    {
+                      "id": "act_slide_23",
+                      "type": "action",
+                      "action": "load_slide_slot",
+                      "instance": "xcreator01",
+                      "options": {
+                        "slot": 23
+                      },
+                      "headline": ""
+                    }
+                  ],
+                  "up": []
+                },
+                "options": {
+                  "runWhileHeld": []
+                }
+              }
+            }
+          },
+          "7": {
+            "type": "button",
+            "style": {
+              "text": "$(xcreator:slide_24_name)",
+              "textExpression": false,
+              "size": "auto",
+              "png64": null,
+              "alignment": "center:center",
+              "pngalignment": "center:center",
+              "color": 16777215,
+              "bgcolor": 1319740,
+              "show_topbar": "default"
+            },
+            "options": {
+              "stepProgression": "auto",
+              "stepExpression": ""
+            },
+            "feedbacks": [
+              {
+                "id": "fb_slide_24",
+                "type": "feedback",
+                "feedbackId": "slide_slot_active",
+                "instance_id": "xcreator01",
+                "options": {
+                  "slot": 24
+                },
+                "style": {
+                  "color": 16777215,
+                  "bgcolor": 46140
+                },
+                "isInverted": false,
+                "headline": ""
+              }
+            ],
+            "steps": {
+              "0": {
+                "action_sets": {
+                  "down": [
+                    {
+                      "id": "act_slide_24",
+                      "type": "action",
+                      "action": "load_slide_slot",
+                      "instance": "xcreator01",
+                      "options": {
+                        "slot": 24
+                      },
+                      "headline": ""
+                    }
+                  ],
+                  "up": []
+                },
+                "options": {
+                  "runWhileHeld": []
+                }
+              }
+            }
+          }
+        },
+        "3": {
+          "0": {
+            "type": "button",
+            "style": {
+              "text": "? PREV\\nSLIDE",
+              "textExpression": false,
+              "size": "14",
+              "png64": null,
+              "alignment": "center:center",
+              "pngalignment": "center:center",
+              "color": 16777215,
+              "bgcolor": 23220,
+              "show_topbar": "default"
+            },
+            "options": {
+              "stepProgression": "auto",
+              "stepExpression": ""
+            },
+            "feedbacks": [],
+            "steps": {
+              "0": {
+                "action_sets": {
+                  "down": [
+                    {
+                      "id": "act_prev",
+                      "type": "action",
+                      "action": "prev_slide",
+                      "instance": "xcreator01",
+                      "options": {},
+                      "headline": ""
+                    }
+                  ],
+                  "up": []
+                },
+                "options": {
+                  "runWhileHeld": []
+                }
+              }
+            }
+          },
+          "1": {
+            "type": "button",
+            "style": {
+              "text": "NEXT ?\\nSLIDE",
+              "textExpression": false,
+              "size": "14",
+              "png64": null,
+              "alignment": "center:center",
+              "pngalignment": "center:center",
+              "color": 16777215,
+              "bgcolor": 30935,
+              "show_topbar": "default"
+            },
+            "options": {
+              "stepProgression": "auto",
+              "stepExpression": ""
+            },
+            "feedbacks": [],
+            "steps": {
+              "0": {
+                "action_sets": {
+                  "down": [
+                    {
+                      "id": "act_next",
+                      "type": "action",
+                      "action": "next_slide",
+                      "instance": "xcreator01",
+                      "options": {},
+                      "headline": ""
+                    }
+                  ],
+                  "up": []
+                },
+                "options": {
+                  "runWhileHeld": []
+                }
+              }
+            }
+          },
+          "2": {
+            "type": "button",
+            "style": {
+              "text": "LIVE:\\n$(xcreator:current_slide_name)",
+              "textExpression": false,
+              "size": "auto",
+              "png64": null,
+              "alignment": "center:center",
+              "pngalignment": "center:center",
+              "color": 16777215,
+              "bgcolor": 28210,
+              "show_topbar": "default"
+            },
+            "options": {
+              "stepProgression": "auto",
+              "stepExpression": ""
+            },
+            "feedbacks": [
+              {
+                "id": "fb_online",
+                "type": "feedback",
+                "feedbackId": "alive_status",
+                "instance_id": "xcreator01",
+                "options": {},
+                "style": {
+                  "color": 16777215,
+                  "bgcolor": 35900
+                },
+                "isInverted": false,
+                "headline": ""
+              }
+            ],
+            "steps": {
+              "0": {
+                "action_sets": {
+                  "down": [
+                    {
+                      "id": "act_ref1",
+                      "type": "action",
+                      "action": "refresh",
+                      "instance": "xcreator01",
+                      "options": {},
+                      "headline": ""
+                    }
+                  ],
+                  "up": []
+                },
+                "options": {
+                  "runWhileHeld": []
+                }
+              }
+            }
+          },
+          "3": {
+            "type": "button",
+            "style": {
+              "text": "EXP:\\n$(xcreator:current_experience_name)",
+              "textExpression": false,
+              "size": "auto",
+              "png64": null,
+              "alignment": "center:center",
+              "pngalignment": "center:center",
+              "color": 16777215,
+              "bgcolor": 4597880,
+              "show_topbar": "default"
+            },
+            "options": {
+              "stepProgression": "auto",
+              "stepExpression": ""
+            },
+            "feedbacks": [],
+            "steps": {
+              "0": {
+                "action_sets": {
+                  "down": [
+                    {
+                      "id": "act_ref2",
+                      "type": "action",
+                      "action": "refresh",
+                      "instance": "xcreator01",
+                      "options": {},
+                      "headline": ""
+                    }
+                  ],
+                  "up": []
+                },
+                "options": {
+                  "runWhileHeld": []
+                }
+              }
+            }
+          },
+          "4": {
+            "type": "button",
+            "style": {
+              "text": "EXP 1:\\n$(xcreator:experience_1_name)",
+              "textExpression": false,
+              "size": "auto",
+              "png64": null,
+              "alignment": "center:center",
+              "pngalignment": "center:center",
+              "color": 16777215,
+              "bgcolor": 5911180,
+              "show_topbar": "default"
+            },
+            "options": {
+              "stepProgression": "auto",
+              "stepExpression": ""
+            },
+            "feedbacks": [
+              {
+                "id": "fb_exp1",
+                "type": "feedback",
+                "feedbackId": "experience_slot_active",
+                "instance_id": "xcreator01",
+                "options": {
+                  "slot": 1
+                },
+                "style": {
+                  "color": 16777215,
+                  "bgcolor": 41040
+                },
+                "isInverted": false,
+                "headline": ""
+              }
+            ],
+            "steps": {
+              "0": {
+                "action_sets": {
+                  "down": [
+                    {
+                      "id": "act_exp1",
+                      "type": "action",
+                      "action": "load_experience_slot",
+                      "instance": "xcreator01",
+                      "options": {
+                        "slot": 1
+                      },
+                      "headline": ""
+                    }
+                  ],
+                  "up": []
+                },
+                "options": {
+                  "runWhileHeld": []
+                }
+              }
+            }
+          },
+          "5": {
+            "type": "button",
+            "style": {
+              "text": "EXP 2:\\n$(xcreator:experience_2_name)",
+              "textExpression": false,
+              "size": "auto",
+              "png64": null,
+              "alignment": "center:center",
+              "pngalignment": "center:center",
+              "color": 16777215,
+              "bgcolor": 5911180,
+              "show_topbar": "default"
+            },
+            "options": {
+              "stepProgression": "auto",
+              "stepExpression": ""
+            },
+            "feedbacks": [
+              {
+                "id": "fb_exp2",
+                "type": "feedback",
+                "feedbackId": "experience_slot_active",
+                "instance_id": "xcreator01",
+                "options": {
+                  "slot": 2
+                },
+                "style": {
+                  "color": 16777215,
+                  "bgcolor": 41040
+                },
+                "isInverted": false,
+                "headline": ""
+              }
+            ],
+            "steps": {
+              "0": {
+                "action_sets": {
+                  "down": [
+                    {
+                      "id": "act_exp2",
+                      "type": "action",
+                      "action": "load_experience_slot",
+                      "instance": "xcreator01",
+                      "options": {
+                        "slot": 2
+                      },
+                      "headline": ""
+                    }
+                  ],
+                  "up": []
+                },
+                "options": {
+                  "runWhileHeld": []
+                }
+              }
+            }
+          },
+          "6": {
+            "type": "button",
+            "style": {
+              "text": "?? SYNC\\n($(xcreator:slide_count) Slides)",
+              "textExpression": false,
+              "size": "auto",
+              "png64": null,
+              "alignment": "center:center",
+              "pngalignment": "center:center",
+              "color": 16777215,
+              "bgcolor": 3294810,
+              "show_topbar": "default"
+            },
+            "options": {
+              "stepProgression": "auto",
+              "stepExpression": ""
+            },
+            "feedbacks": [],
+            "steps": {
+              "0": {
+                "action_sets": {
+                  "down": [
+                    {
+                      "id": "act_sync",
+                      "type": "action",
+                      "action": "refresh",
+                      "instance": "xcreator01",
+                      "options": {},
+                      "headline": ""
+                    }
+                  ],
+                  "up": []
+                },
+                "options": {
+                  "runWhileHeld": []
+                }
+              }
+            }
+          },
+          "7": {
+            "type": "button",
+            "style": {
+              "text": "? EXIT\\nEXP",
+              "textExpression": false,
+              "size": "14",
+              "png64": null,
+              "alignment": "center:center",
+              "pngalignment": "center:center",
+              "color": 16777215,
+              "bgcolor": 11146260,
+              "show_topbar": "default"
+            },
+            "options": {
+              "stepProgression": "auto",
+              "stepExpression": ""
+            },
+            "feedbacks": [],
+            "steps": {
+              "0": {
+                "action_sets": {
+                  "down": [
+                    {
+                      "id": "act_exit",
+                      "type": "action",
+                      "action": "exit_experience",
+                      "instance": "xcreator01",
+                      "options": {},
+                      "headline": ""
+                    }
+                  ],
+                  "up": []
+                },
+                "options": {
+                  "runWhileHeld": []
+                }
+              }
+            }
+          }
+        }
+      },
+      "gridSize": {
+        "minColumn": 0,
+        "maxColumn": 7,
+        "minRow": 0,
+        "maxRow": 3
+      }
+    }
+  },
+  "instances": {
+    "xcreator01": {
+      "instance_type": "three10-xcreator",
+      "moduleVersionId": "1.0.0",
+      "label": "xcreator",
+      "config": {
+        "host": "10.10.10.122",
+        "port": 9696,
+        "pollInterval": 1500
+      },
+      "isFirstInit": false,
+      "lastUpgradeIndex": 0,
+      "enabled": true,
+      "sortOrder": 0
+    }
+  },
+  "connectionCollections": [],
+  "custom_variables": {},
+  "expressionVariables": {},
+  "expressionVariableCollections": [],
+  "triggers": {},
+  "triggerCollections": []
+}
