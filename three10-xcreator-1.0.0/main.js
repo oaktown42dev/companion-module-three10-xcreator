@@ -124,24 +124,54 @@ class InstanceBase {
 	}
 }
 
-const MAX_SLIDE_SLOTS = 24
-const MAX_EXP_SLOTS = 8
+const MAX_SLIDE_SLOTS = 84
+const MAX_EXP_SLOTS = 12
+
+function unwrapOption(val, fallback) {
+	if (val !== null && typeof val === 'object' && 'value' in val) {
+		return val.value ?? fallback
+	}
+	return val ?? fallback
+}
 
 // Initial fallback state from your X-Creator (FKTG) so buttons are immediately populated even while offline!
-const INITIAL_EXPERIENCES = [{ name: 'FKTG', id: '6af1af3ef2e1db0017200139', isFavorite: false }]
+const INITIAL_EXPERIENCES = [
+	{ name: 'FKTG', id: '6af1af3ef2e1db0017200139', isFavorite: false },
+	{ name: 'FKTG Donnerstag', id: '6af310a0f6ab6ba0ae0439a3', isFavorite: false },
+	{ name: 'FKTG Mittwoch', id: '6af310adf6ab6b55350439c4', isFavorite: false },
+]
 const INITIAL_SLIDES = [
-	{ name: 'Standard', id: '6af1d4f9b7e9215cfc67f681', isFavorite: false },
-	{ name: 'Agenda Dienstag', id: '6af1f052b7e9217d3011b6a2', isFavorite: false },
-	{ name: 'Agenda Mittwoch', id: '6af1f0e2b7e9217d3011b6a7', isFavorite: false },
-	{ name: 'Agenda Donnerstag', id: '6af1f0edb7e9217d3011b6a9', isFavorite: false },
-	{ name: 'Agenda Dienstag (2)', id: '6af1f17bb7e9217d3011b6b2', isFavorite: false },
-	{ name: 'A Ankündigung', id: '6af1c8e8b7e9212254e9f880', isFavorite: false },
-	{ name: 'A prestage', id: '6af1d13cb7e9215cfc67f678', isFavorite: false },
-	{ name: 'A show', id: '6af1d1f0b7e9215cfc67f67b', isFavorite: false },
-	{ name: 'B Ankündigung', id: '6af1f1c2b7e9217d3011b6b3', isFavorite: false },
-	{ name: 'B prestage', id: '6af1f1d8b7e9217d3011b6b4', isFavorite: false },
-	{ name: 'B show', id: '6af1f1e4b7e9217d3011b6b5', isFavorite: false },
-	{ name: 'Standard (1)', id: '6af1d678b7e9215cfc67f685', isFavorite: false },
+	{ name: 'Standard', id: '6af30caaf6ab6b6b69100101', isFavorite: false },
+	{ name: 'Agenda Mittwoch', id: '6af30caaf6ab6b6b69100102', isFavorite: false },
+	{ name: 'Agenda Donnerstag', id: '6af30caaf6ab6b6b69100103', isFavorite: false },
+	{ name: 'A Ankündigung', id: '6af30caaf6ab6b6b69100108', isFavorite: false },
+	{ name: 'A prestage', id: '6af30caaf6ab6b6b69100109', isFavorite: false },
+	{ name: 'A show', id: '6af30caaf6ab6b6b6910010a', isFavorite: false },
+	{ name: 'B Ankündigung', id: '6af30caaf6ab6b6b6910010c', isFavorite: false },
+	{ name: 'B prestage', id: '6af30caaf6ab6b6b6910010d', isFavorite: false },
+	{ name: 'B show', id: '6af30caaf6ab6b6b6910010e', isFavorite: false },
+	{ name: 'C Ankündigung', id: '6af30caaf6ab6b6b69100110', isFavorite: false },
+	{ name: 'C prestage', id: '6af30caaf6ab6b6b69100111', isFavorite: false },
+	{ name: 'C show', id: '6af30caaf6ab6b6b69100112', isFavorite: false },
+	{ name: 'D Ankündigung', id: '6af30caaf6ab6b6b69100114', isFavorite: false },
+	{ name: 'D prestage', id: '6af30caaf6ab6b6b69100115', isFavorite: false },
+	{ name: 'D show', id: '6af30caaf6ab6b6b69100116', isFavorite: false },
+	{ name: 'E Ankündigung', id: '6af30caaf6ab6b6b69100118', isFavorite: false },
+	{ name: 'E prestage', id: '6af30caaf6ab6b6b69100119', isFavorite: false },
+	{ name: 'E show', id: '6af30caaf6ab6b6b6910011a', isFavorite: false },
+	{ name: 'F Ankündigung', id: '6af30caaf6ab6b6b6910011c', isFavorite: false },
+	{ name: 'F prestage', id: '6af30caaf6ab6b6b6910011d', isFavorite: false },
+	{ name: 'F show', id: '6af30caaf6ab6b6b6910011e', isFavorite: false },
+	{ name: 'G Ankündigung', id: '6af30caaf6ab6b6b69100120', isFavorite: false },
+	{ name: 'G prestage', id: '6af30caaf6ab6b6b69100121', isFavorite: false },
+	{ name: 'G show', id: '6af30caaf6ab6b6b69100122', isFavorite: false },
+	{ name: 'H Ankündigung', id: '6af30caaf6ab6b6b69100124', isFavorite: false },
+	{ name: 'H prestage', id: '6af30caaf6ab6b6b69100125', isFavorite: false },
+	{ name: 'H show', id: '6af30caaf6ab6b6b69100126', isFavorite: false },
+	{ name: 'I Ankündigung', id: '6af30caaf6ab6b6b69100128', isFavorite: false },
+	{ name: 'I prestage', id: '6af30caaf6ab6b6b69100129', isFavorite: false },
+	{ name: 'I show', id: '6af30caaf6ab6b6b6910012a', isFavorite: false },
+	{ name: 'Standard Abend', id: '6af30caaf6ab6b6b69100104', isFavorite: false },
 ]
 
 class XCreatorInstance extends InstanceBase {
@@ -427,7 +457,17 @@ class XCreatorInstance extends InstanceBase {
 				name: 'Next Slide',
 				options: [],
 				callback: async () => {
-					await this.apiGet('/slides/next').catch((e) => this.log('error', `Next slide failed: ${e.message}`))
+					const res = await this.apiGet('/slides/next').catch((e) => {
+						this.log('error', `Next slide failed: ${e.message}`)
+						return { statusCode: 0 }
+					})
+					if (res.statusCode !== 200 && this.state.slides.length > 0) {
+						const nextIdx = this.state.currentSlideIndex < this.state.slides.length ? this.state.currentSlideIndex : 0
+						const nextSlide = this.state.slides[nextIdx]
+						if (nextSlide?.id) {
+							await this.apiGet(`/slides/${nextSlide.id}`).catch(() => null)
+						}
+					}
 					setTimeout(() => this.pollNow().catch(() => null), 100)
 				},
 			},
@@ -435,23 +475,33 @@ class XCreatorInstance extends InstanceBase {
 				name: 'Previous Slide',
 				options: [],
 				callback: async () => {
-					await this.apiGet('/slides/previous').catch((e) => this.log('error', `Previous slide failed: ${e.message}`))
+					const res = await this.apiGet('/slides/previous').catch((e) => {
+						this.log('error', `Previous slide failed: ${e.message}`)
+						return { statusCode: 0 }
+					})
+					if (res.statusCode !== 200 && this.state.slides.length > 0) {
+						const prevIdx = this.state.currentSlideIndex > 1 ? this.state.currentSlideIndex - 2 : this.state.slides.length - 1
+						const prevSlide = this.state.slides[prevIdx]
+						if (prevSlide?.id) {
+							await this.apiGet(`/slides/${prevSlide.id}`).catch(() => null)
+						}
+					}
 					setTimeout(() => this.pollNow().catch(() => null), 100)
 				},
 			},
 			load_slide_slot: {
-				name: 'Load Slide by Slot (1–24, Auto-Sync)',
+				name: 'Load Slide by Slot (1–84, Auto-Sync)',
 				options: [
 					{
 						type: 'dropdown',
 						id: 'slot',
-						label: 'Slide Slot (1–24)',
+						label: 'Slide Slot (1–84)',
 						default: 1,
 						choices: slotChoices,
 					},
 				],
 				callback: async (action) => {
-					const slot = Number(action.options.slot) || 1
+					const slot = Number(unwrapOption(action.options.slot, 1)) || 1
 					const slide = this.state.slides[slot - 1]
 					if (!slide || !slide.id) {
 						this.log('warn', `Slide Slot ${slot} is empty, nothing to load`)
@@ -478,7 +528,7 @@ class XCreatorInstance extends InstanceBase {
 					},
 				],
 				callback: async (action) => {
-					const slideId = String(action.options.slideId || '').trim()
+					const slideId = String(unwrapOption(action.options.slideId, '')).trim()
 					if (!slideId) return
 					await this.apiGet(`/slides/${slideId}`).catch((e) =>
 						this.log('error', `Load slide ${slideId} failed: ${e.message}`)
@@ -487,18 +537,18 @@ class XCreatorInstance extends InstanceBase {
 				},
 			},
 			load_experience_slot: {
-				name: 'Load Experience by Slot (1–8, Auto-Sync)',
+				name: 'Load Experience by Slot (1–12, Auto-Sync)',
 				options: [
 					{
 						type: 'dropdown',
 						id: 'slot',
-						label: 'Experience Slot (1–8)',
+						label: 'Experience Slot (1–12)',
 						default: 1,
 						choices: expChoices,
 					},
 				],
 				callback: async (action) => {
-					const slot = Number(action.options.slot) || 1
+					const slot = Number(unwrapOption(action.options.slot, 1)) || 1
 					const exp = this.state.experiences[slot - 1]
 					if (!exp || !exp.id) {
 						this.log('warn', `Experience Slot ${slot} is empty`)
@@ -522,7 +572,7 @@ class XCreatorInstance extends InstanceBase {
 					},
 				],
 				callback: async (action) => {
-					const expId = String(action.options.expId || '').trim()
+					const expId = String(unwrapOption(action.options.expId, '')).trim()
 					if (!expId) return
 					await this.apiGet(`/experiences/${expId}`).catch((e) =>
 						this.log('error', `Load experience ${expId} failed: ${e.message}`)
@@ -565,7 +615,7 @@ class XCreatorInstance extends InstanceBase {
 			slide_slot_active: {
 				type: 'boolean',
 				name: 'Slide Slot is Currently Active (Tally)',
-				description: 'Lights up when the Slide in this Slot (1–24) is currently active in X-Creator',
+				description: 'Lights up when the Slide in this Slot (1–84) is currently active in X-Creator',
 				defaultStyle: {
 					color: combineRgb(255, 255, 255),
 					bgcolor: combineRgb(0, 180, 70),
@@ -574,13 +624,13 @@ class XCreatorInstance extends InstanceBase {
 					{
 						type: 'dropdown',
 						id: 'slot',
-						label: 'Slide Slot (1–24)',
+						label: 'Slide Slot (1–84)',
 						default: 1,
 						choices: slotChoices,
 					},
 				],
 				callback: (feedback) => {
-					const slot = Number(feedback.options.slot) || 1
+					const slot = Number(unwrapOption(feedback.options.slot, 1)) || 1
 					const slide = this.state.slides[slot - 1]
 					if (!slide || !slide.id || !this.state.currentSlide?.id) return false
 					return slide.id === this.state.currentSlide.id
@@ -598,20 +648,20 @@ class XCreatorInstance extends InstanceBase {
 					{
 						type: 'dropdown',
 						id: 'slot',
-						label: 'Slide Slot (1–24)',
+						label: 'Slide Slot (1–84)',
 						default: 1,
 						choices: slotChoices,
 					},
 				],
 				callback: (feedback) => {
-					const slot = Number(feedback.options.slot) || 1
+					const slot = Number(unwrapOption(feedback.options.slot, 1)) || 1
 					return !this.state.slides[slot - 1]
 				},
 			},
 			experience_slot_active: {
 				type: 'boolean',
 				name: 'Experience Slot is Currently Active',
-				description: 'Lights up when the Experience in this Slot (1–8) is currently loaded in X-Creator',
+				description: 'Lights up when the Experience in this Slot (1–12) is currently loaded in X-Creator',
 				defaultStyle: {
 					color: combineRgb(255, 255, 255),
 					bgcolor: combineRgb(13, 148, 136),
@@ -620,13 +670,13 @@ class XCreatorInstance extends InstanceBase {
 					{
 						type: 'dropdown',
 						id: 'slot',
-						label: 'Experience Slot (1–8)',
+						label: 'Experience Slot (1–12)',
 						default: 1,
 						choices: expChoices,
 					},
 				],
 				callback: (feedback) => {
-					const slot = Number(feedback.options.slot) || 1
+					const slot = Number(unwrapOption(feedback.options.slot, 1)) || 1
 					const exp = this.state.experiences[slot - 1]
 					if (!exp || !exp.id || !this.state.currentExperience?.id) return false
 					return exp.id === this.state.currentExperience.id
